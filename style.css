@@ -1,0 +1,19 @@
+#container{
+    font-size: 20px;
+   
+}
+.paragraph1{
+    color: orange;
+
+}
+.paragraph1 h3 {
+    color: black;
+}
+.paragraph2 span{
+font-weight: bold;
+padding: 5px;
+}
+.paragraph3 {
+    background-image:url("pics/abstract-5719535_960_720.webp");
+    color: white;
+}
