@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: dotted 2px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: left;
+            box-sizing: border-box;
+            width: 500px;
+            
+        }
+
+        .line {
+            display: flex;
+        }
+
+        .form-info {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <h4>Regisration Form !</h4>
+        <div class="container">
+            <form class="form-group">
+                <p>Personal details</p>
+                <hr class="line">
+                <div class="form-info">
+                    <label for="fname">First name:</label>
+                    <input type="text" name="fname"><br><br>
+                </div>
+                <div class="form-info">
+                    <label for="lname">Last name:</label>
+                    <input type="text" name="lname"><br><br>
+                </div>
+                <div class="form-info">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email"><br><br>
+                </div>
+                <div class="form-info">
+                    <label for="gender"> Gender</label>
+                    <input type="radio" name="gender" value="Gender">
+                      <label for="male">Male</label>
+                      <input type="radio" name="gender" value="Gender">
+                      <label for="female">Female</label><br><br>
+                </div>
+                <div class="form-info">
+                    <label for="city"> City</label>
+                    <select class="form-control">
+                        <option selected disabled>Amman</option>
+                        <option>...</option>
+
+                    </select><br><br>
+                </div>
+                <div class="form-info">
+                    <button type="submit" class="btn"> sign up</button>
+                </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
